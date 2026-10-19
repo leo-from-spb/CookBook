@@ -1,0 +1,27 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+indent_size = 4
+
+
+[*.yml]
+indent_style = space
+
+
+[*.txt]
+tab_width = 8
+
+
+[*.md]
+tab_width = 8
+indent_size = 8
+indent_style = tab
+
+
+[*.sh]
+tab_width = 8
+indent_size = 8
+indent_style = tab
